@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Busca de Drinks</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🍹Search Cocktails</h1>
+      <div class="input-group">
+        <div class="input-wrapper">
+          <input type="text" id="drinkName" placeholder="Search by name..." />
+          <button onclick="searchDrink(document.getElementById('drinkName').value)">Search</button>
+        </div>
+      </div>
+      <div class="input-group">
+        <div class="input-wrapper">
+          <input type="text" id="ingredientName" placeholder="Search by ingredient..." />
+          <button onclick="searchByIngredient(document.getElementById('ingredientName').value)">Search</button>
+        </div>
+      </div>
+      <div class="button-group">
+        <button onclick="getRandomDrink()">Random Cocktail</button>
+        <button onclick="listIngredients()">List Ingredients</button>
+      </div>
+      <br />
+    </div>
+    <div class="results" id="results"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
