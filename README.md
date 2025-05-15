@@ -40,12 +40,6 @@ A aplicação permite buscar drinks por nome ou ingrediente, listar todos os ing
 
 ---
 
-## 📷 Preview
-
-![preview](preview.png)
-
----
-
 ## 🧪 Objetivo
 
 Esse projeto foi criado como prática de manipulação de APIs com JavaScript.
